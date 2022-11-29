@@ -23,7 +23,7 @@ int pickingNumbers(vector<int> a)
     
     for(size_t i = 0; i < data.size()-1; ++i)
     {
-        result = std::max( result, data[i]+data[i+1] );
+        result = std::max( result, (data[i] + data[i+1]) );
     }
 
     return result;
